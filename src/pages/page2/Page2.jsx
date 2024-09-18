@@ -23,6 +23,7 @@ const Page2 = () => {
             <div className='h2'>
                 How sagenest improve lives
             </div>
+            
             <div className='box-con'>
                 <div className='boxi'>
                     <div className='up'>

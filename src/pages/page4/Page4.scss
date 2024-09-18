@@ -1,0 +1,114 @@
+.container {
+    background-color: white;
+    padding: 4%;
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+    width: 90vw;
+
+    .con {
+        // margin: 5px;
+        padding: 2%;
+        width: 80%;
+        // background-color: blue;
+
+        .top {
+            margin: 2px;
+            font-size: 20px;
+        }
+
+        .hh {
+            font-size: 40px;
+            font-weight: bolder;
+            color: blue;
+            display: flex;
+            flex-flow: row;
+            width: 55%;
+
+        }
+
+        .cc {
+
+            margin-top: 5px;
+            margin: 2px;
+            font-size: 17px;
+            color: grey;
+
+        }
+
+        .box-con {
+            margin: 5px;
+            display: flex;
+            padding: 10px;
+
+            .cards {
+                display: flex;
+                flex-direction: column;
+
+                .cards-up {
+                    display: flex;
+                    margin: 8px;
+                    background-color: aqua;
+
+                    .card {
+                        display: flex;
+                        flex-direction: column;
+                        flex-wrap: wrap;
+                        height: 95%;
+                        width: 20%;
+                        background-color: brown;
+                        margin: 5px;
+
+                        .up-img {
+                            height: 65%;
+                            width: 100%;
+                        }
+
+                        .down-con {
+                            height: 35%;
+                            width: 100%;
+                        }
+                    }
+                }
+
+                .cards-down {
+                    display: flex;
+                    justify-content: space-between;
+                    width: 70%;
+
+                    .left {
+                        height: 95%;
+                        width: 20%;
+
+                        .up-img {
+                            height: 65%;
+                            width: 100%;
+                        }
+
+                        .down-con {
+                            height: 35%;
+                            width: 100%;
+                        }
+                    }
+
+                    .right {
+                        display: flex;
+                        align-items: center;
+
+                        justify-content: space-between;
+
+                        .view {
+                            height: 25px;
+                            background-color: red($color: #000000);
+                        }
+
+                        .register {
+                            height: 25px;
+                            background-color: red($color: #000000);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

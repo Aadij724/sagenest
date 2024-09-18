@@ -5,6 +5,8 @@ import Expert from './Expert.jsx';
 import Learner from './Learner.jsx';
 import SignUp from './SignUp.jsx';
 import Page2 from './pages/page2/Page2.jsx';
+import Page3 from './pages/page3/Page3.jsx';
+import Page4 from './pages/page4/Page4.jsx';
 
 const App = () => {
   return (
@@ -31,7 +33,9 @@ const App = () => {
         </nav> */}
         <Routes>
           {/* <Route path="/" element={<Home />} /> */}
-          <Route path="/" element={<Page2 />} />
+          {/* <Route path="/" element={<Page2 />} /> */}
+          {/* <Route path="/" element={<Page3/>} /> */}
+          <Route path="/" element={<Page4/>} />
           <Route path="/expert" element={<Expert />} />
           <Route path="/learner" element={<Learner />} />
           <Route path="/signup" element={<SignUp />} />

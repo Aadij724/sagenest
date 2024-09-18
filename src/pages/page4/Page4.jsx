@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Page4.scss";
+import image1 from "../../../public/imgs/image1.png";
 
 const Page4 = () => {
   return (
@@ -20,6 +21,8 @@ const Page4 = () => {
                     <div className='cards-up'>
                         <div className='card'>
                             <div className='up-img'>
+                                {/* <img src='../../../public/imgs/image1.png'/> */}
+                                {/* <img className='imgg' src='https://fastly.picsum.photos/id/824/200/300.jpg?hmac=CPaWVapi5aRxRDN0wSZfBeD_w8iiddSi1zhfyLj7AnA'/> */}
                                 img
                             </div>
                             <div className='down-con'>
@@ -54,7 +57,7 @@ const Page4 = () => {
                     <div className='cards-down'>
                         <div className='left'>
                             <div className='up-img'>
-                                img
+                                
                             </div>
                             <div className='down-con'>
                                 dskjnfgwongcerfyugvewruog
